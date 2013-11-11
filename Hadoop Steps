@@ -1,0 +1,1 @@
+javac -classpath /usr/local/Cellar/hadoop/1.2.1/libexec/lib/commons-cli-1.2.jar:/usr/local/Cellar/hadoop/1.2.1/libexec/hadoop-core-1.2.1.jar  -d miclasses mutualInfo.java && jar -cvf mutualInfo.jar -C miclasses/ .
